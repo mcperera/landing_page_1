@@ -4,7 +4,7 @@ import { jumboArea } from "./Banner.module.css";
 
 function Banner() {
   return (
-    <section id="banner" className="h-screen pt-24">
+    <section id="banner" className="pt-24 pb-24">
       <div className={`${jumboArea} pt-28`}>
         <div className="max-w-screen-lg w-4/5 mx-auto text-white">
           <div className="flex justify-between">
